@@ -1,0 +1,14 @@
+[package]
+name = "franka_rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde_repr = "*"
+serde = { version = "1.0", features = ["derive"] }
+serde-big-array = "0.5.1"
+bitflags = "*"
+num-traits = "*"
+num-derive = "*"
+thiserror = "*"
+nalgebra = "*"
